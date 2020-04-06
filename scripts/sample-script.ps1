@@ -1,0 +1,43 @@
+
+<#PSScriptInfo
+
+.VERSION 1.0
+
+.GUID 2d065b5b-f647-427f-8556-4b1e2b61c4be
+
+.AUTHOR PoyChang
+
+.COMPANYNAME
+
+.COPYRIGHT
+
+.TAGS
+
+.LICENSEURI
+
+.PROJECTURI
+
+.ICONURI
+
+.EXTERNALMODULEDEPENDENCIES
+
+.REQUIREDSCRIPTS
+
+.EXTERNALSCRIPTDEPENDENCIES
+
+.RELEASENOTES
+
+
+.PRIVATEDATA
+
+#>
+
+<#
+
+.DESCRIPTION 
+ Sample Script
+
+#> 
+Param( $name = '')
+
+Write-Output "Hello! $($name)"
